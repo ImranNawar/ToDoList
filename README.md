@@ -4,4 +4,4 @@
 <p>Become focused, organized, and calm with Todoist.</p>
 
 ## Live :-
-### [ToDoList](http://shradha-todolist.netlify.com/)
+### [ToDoList](http://-todolist.netlify.com/)
