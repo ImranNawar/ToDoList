@@ -6,7 +6,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  background: #344a72;
+  background: #79bfde;
   color: #fff;
   line-height: 1.8;
 }
@@ -17,7 +17,7 @@ a {
 h1 {
   background-color: #f5f5f5;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(113, 111, 111, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 #container {
   margin: 30px auto;
@@ -64,7 +64,7 @@ h1 {
   margin-top: 20px;
 }
 .page {
-  background-color: #28467e;
+  background: #b7dbeb;
   margin-top: -30px;
   min-height: 100vh;
 }
@@ -88,14 +88,15 @@ h1 {
 
 /* Task list */
 .tasks {
-  background: rgb(242, 242, 243);
+  background: #fff;
   margin-top: 10px;
   margin-left: -20px;
   margin-right: -20px;
   border-radius: 8px;
 }
 .task {
-  background-color: rgb(229, 221, 221);
+  background-color: #e8e8e8;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
@@ -114,7 +115,7 @@ h1 {
   border: none;
   margin: 5px;
   cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .t-btn:hover {
@@ -134,7 +135,16 @@ footer {
   width: 100%;
   text-align: center;
   justify-content: center;
-  background: #133065;
+  background: #85b1c7;
   color: #fff;
   padding: 0.3rem;
+}
+
+/* Mobile Screen */
+
+@media only screen and (max-width: 400px) {
+  .tasks {
+    width: 95%;
+    margin-left: 8px;
+  }
 }
