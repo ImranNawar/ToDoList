@@ -19,4 +19,4 @@ Check out the live demo of ToDoList [here](https://imrannawar.github.io/ToDoList
 Contributions are always welcome! If you would like to contribute to ToDoList, please fork the repository and submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
